@@ -1,0 +1,21 @@
+{
+  "name": "raspberrypi-obd-gps-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "serialTest.js",
+  "scripts": {
+    "test-gps": "node listener.js gps",
+    "test-obd": "node listener.js obd",
+    "test-sockets": "node listener.js",
+    "start": "node serialTest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^1.6.11",
+    "nmea": "^0.1.0",
+    "serialport": "^6.2.2",
+    "socket.io": "^1.7.2",
+    "bluetooth-serial-port": "~2.1.0"
+  }
+}
